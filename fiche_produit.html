@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-------------------------------------------- HEADER ------------------------------------------------------------>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a href="Shop.html"><img src="Bootstrap_logo.svg" class="logo mx-1"></a>
+              <a class="navbar-brand" href="Shop.html">Bootstrap Online Shop</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="Shop.html">Shop</a>
+                  <a class="nav-link" href="Connection.html">Connection</a>
+                  <a class="nav-link" href="Registration.html">Registration</a>
+                  <a class="nav-link" href="My_profile.html">My profile</a>
+                  <a class="nav-link position-relative" href="My_cart.html">My cart
+                    <span class="position-absolute  start-100 translate-middle rounded-circle p-1 border border-light">1</span>
+                  </a>
+                  <a class="nav-link" href="Shop.html">Disconnection</a>
+                  <a class="nav-link" href="#">BackOffice</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!-------------------------------------------- MAIN ------------------------------------------------------------>
+    <main class="p-5 d-flex flex-column align-items-center">
+      <div class="row col-md-6">
+       <div class="col-md-6">
+         <div class="card mb-2">
+            <img src="black_t-shirt.png" class="card-img-top px-2">
+            <div class="card-body">
+              <h5 class="card-title">Black t-shirt</h5>
+              <p class="card-text">Some quick example text.</p>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+      <div class="col-md-12 mb-5">
+        <ul class="list-group">
+            <li class="list-group-item"><a href="#" class="text-dark text-decoration-none">Catecory : t-shirt</a></li>
+            <li class="list-group-item"><a href="#" class="text-dark text-decoration-none">Color : black</a></li>
+            <li class="list-group-item"><a href="#" class="text-dark text-decoration-none">Size : S</a></li>
+            <li class="list-group-item"><a href="#" class="text-dark text-decoration-none">Price : 99€</a></li>
+            <li class="list-group-item"><a href="#" class="text-dark text-decoration-none">Quantity :
+                <select class="form-select mt-3">
+                    <option value="1" selected>Chose Quantity</option>
+                    <option value="2">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="3">4</option>
+                    <option value="3">5</option>
+                </select></a>
+            </li>
+        </ul>
+      </div>
+      <div class="col-md-12">
+        <a href="My_cart.html"><button type="button" class="btn btn-outline-secondary col-12">Add to cart</button></a>
+      </div>
+    </div>
+    </div>
+    </main>
+    <!-------------------------------------------- FOOTER ------------------------------------------------------------>
+    <footer class="container-fluid bg-dark text-light pt-4">
+        <div class="row">
+            <div class="col-md-6">
+                <h5>FOOTER CONTENT</h5>
+                <p>welcome to our super online shop !</p>
+            </div>
+            <div class="col-md-3 mb-3">
+                <h5>LINKS</h5>
+                <div class="d-flex flex-column">
+                    <a href="#" class="text-decoration-none text-light">Our super shirt</a>
+                    <a href="#" class="text-decoration-none text-light">Our trendy t-shirt</a>
+                    <a href="#" class="text-decoration-none text-light">Pullover for winter</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h5>LINKS</h5>
+                <div class="d-flex flex-column">
+                    <a href="#" class="text-decoration-none text-light">Contact</a>
+                    <a href="Shop.html" class="text-decoration-none text-light">Shop</a>
+                    <a href="My_cart.html" class="text-decoration-none text-light">Cart</a>
+                    <a href="My_profile.html" class="text-decoration-none text-light">My profile</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="bootstrap.min.js"></script>
+</body>
+</html>
